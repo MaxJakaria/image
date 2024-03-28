@@ -37,12 +37,13 @@ class _MyHomePageState extends State<MyHomePage> {
           Container(
             child: Image.asset('assets/Nature.jpg'),
           ),
-          Center(
-            child: Container(
-              width: 200,
-              height: 200,
-              color: Colors.amber[400],
-            ),
+          Container(
+            child: Image.asset('assets/Hacked.jpg'),
+          ),
+          Container(
+            width: 200,
+            height: 200,
+            color: Colors.amber[400],
           ),
         ],
       ),
