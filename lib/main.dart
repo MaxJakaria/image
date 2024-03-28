@@ -32,12 +32,19 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text("Asset Image"),
       ),
-      body: Center(
-        child: Container(
-          width: 200,
-          height: 200,
-          color: Colors.amber[400],
-        ),
+      body: Column(
+        children: [
+          Container(
+            child: Image.asset('assets/Nature.jpg'),
+          ),
+          Center(
+            child: Container(
+              width: 200,
+              height: 200,
+              color: Colors.amber[400],
+            ),
+          ),
+        ],
       ),
     );
   }
