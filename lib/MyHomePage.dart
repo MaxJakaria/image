@@ -21,16 +21,21 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Column(
         children: [
+          ElevatedButton(
+            onPressed: () {
+              print('This is working');
+            },
+            child: Container(
+              width: 40,
+              height: 20,
+              color: Colors.amber[400],
+            ),
+          ),
           Container(
             child: Image.asset('assets/Nature.jpg'),
           ),
           Container(
             child: Image.asset('assets/Hacked.jpg'),
-          ),
-          Container(
-            width: 200,
-            height: 200,
-            color: Colors.amber[400],
           ),
         ],
       ),
